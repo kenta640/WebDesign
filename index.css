@@ -12,21 +12,24 @@
 }
 .samples-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 100%;
     background-color: rgb(240, 241, 243);
     padding: 10px;
     
 }
 .hairdresser-sample-wrap {
     display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 100%;
     align-items: center;
     grid-gap: 3px;
 }
 .hairdresser-sample {
     pointer-events: none;
     border:none;
+    
+}
+
+.sample-description {
     
 }
 
@@ -39,7 +42,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    
+    grid-column: 1/3
 }
 
 .jump-to-hairdresser:hover {
