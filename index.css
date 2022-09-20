@@ -10,10 +10,39 @@
 .introduction {
     text-align: center;
 }
-
+.samples-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(240, 241, 243);
+    padding: 10px;
+    
+}
+.hairdresser-sample-wrap {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    grid-gap: 3px;
+}
 .hairdresser-sample {
     pointer-events: none;
     border:none;
-
+    
 }
 
+.jump-to-hairdresser {
+    background-color: #dddbc9;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+.jump-to-hairdresser:hover {
+    background-color: gray;
+    
+}
